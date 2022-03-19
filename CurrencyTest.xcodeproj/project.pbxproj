@@ -3,27 +3,47 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		2C50AEDC270C81EC0053E273 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50AEDB270C81EC0053E273 /* AppDelegate.swift */; };
 		2C50AEDE270C81EC0053E273 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50AEDD270C81EC0053E273 /* SceneDelegate.swift */; };
-		2C50AEE0270C81EC0053E273 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50AEDF270C81EC0053E273 /* ViewController.swift */; };
-		2C50AEE3270C81EC0053E273 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C50AEE1270C81EC0053E273 /* Main.storyboard */; };
+		2C50AEE0270C81EC0053E273 /* SecondScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50AEDF270C81EC0053E273 /* SecondScreen.swift */; };
 		2C50AEE5270C81F40053E273 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C50AEE4270C81F40053E273 /* Assets.xcassets */; };
-		2C50AEE8270C81F40053E273 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C50AEE6270C81F40053E273 /* LaunchScreen.storyboard */; };
+		2C50AEF0270C833C0053E273 /* FirstScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C50AEEF270C833C0053E273 /* FirstScreen.swift */; };
+		2CB26DD12719B5E100FBB8BC /* Cell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CB26DD02719B5E000FBB8BC /* Cell.swift */; };
+		2CE3F98627317C0900F6D324 /* FavoritesScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3F98527317C0900F6D324 /* FavoritesScreen.swift */; };
+		2CE3F988273AA07E00F6D324 /* Cell2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3F987273AA07C00F6D324 /* Cell2.swift */; };
+		2CE3F98A273DD6D700F6D324 /* dictionaries.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2CE3F989273DD6D700F6D324 /* dictionaries.swift */; };
+		2CFFFE1F27A7127700EDDFE8 /* Ubuntu-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFFFE1E27A7127500EDDFE8 /* Ubuntu-Light.ttf */; };
+		2CFFFE2127A7135E00EDDFE8 /* Ubuntu-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFFFE2027A7135E00EDDFE8 /* Ubuntu-Regular.ttf */; };
+		2CFFFE2327A7163800EDDFE8 /* Syncopate-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFFFE2227A7163700EDDFE8 /* Syncopate-Bold.ttf */; };
+		2CFFFE2527A717A500EDDFE8 /* Syncopate-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFFFE2427A717A500EDDFE8 /* Syncopate-Regular.ttf */; };
+		2CFFFE2727A7181B00EDDFE8 /* Damion-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2CFFFE2627A7181B00EDDFE8 /* Damion-Regular.ttf */; };
+		593F384FA79F5DDACF4236F1 /* Pods_CurrencyTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 707C9E519EF602E8C0E3424F /* Pods_CurrencyTest.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2C50AED8270C81EC0053E273 /* CurrencyTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CurrencyTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C50AEDB270C81EC0053E273 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2C50AEDD270C81EC0053E273 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		2C50AEDF270C81EC0053E273 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		2C50AEE2270C81EC0053E273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C50AEDF270C81EC0053E273 /* SecondScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreen.swift; sourceTree = "<group>"; };
 		2C50AEE4270C81F40053E273 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2C50AEE7270C81F40053E273 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C50AEE9270C81F40053E273 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C50AEEF270C833C0053E273 /* FirstScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstScreen.swift; sourceTree = "<group>"; };
+		2CB26DD02719B5E000FBB8BC /* Cell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell.swift; sourceTree = "<group>"; };
+		2CE3F98527317C0900F6D324 /* FavoritesScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesScreen.swift; sourceTree = "<group>"; };
+		2CE3F987273AA07C00F6D324 /* Cell2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cell2.swift; sourceTree = "<group>"; };
+		2CE3F989273DD6D700F6D324 /* dictionaries.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dictionaries.swift; sourceTree = "<group>"; };
+		2CFFFE1E27A7127500EDDFE8 /* Ubuntu-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Light.ttf"; path = "../../../Downloads/Ubuntu/Ubuntu-Light.ttf"; sourceTree = "<group>"; };
+		2CFFFE2027A7135E00EDDFE8 /* Ubuntu-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Ubuntu-Regular.ttf"; path = "../../../Downloads/Ubuntu/Ubuntu-Regular.ttf"; sourceTree = "<group>"; };
+		2CFFFE2227A7163700EDDFE8 /* Syncopate-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Syncopate-Bold.ttf"; path = "../../../Downloads/Syncopate/Syncopate-Bold.ttf"; sourceTree = "<group>"; };
+		2CFFFE2427A717A500EDDFE8 /* Syncopate-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Syncopate-Regular.ttf"; path = "../../../Downloads/Syncopate/Syncopate-Regular.ttf"; sourceTree = "<group>"; };
+		2CFFFE2627A7181B00EDDFE8 /* Damion-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Damion-Regular.ttf"; path = "../../../Downloads/Damion/Damion-Regular.ttf"; sourceTree = "<group>"; };
+		5516A42C16530C4FA1117937 /* Pods-CurrencyTest.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurrencyTest.release.xcconfig"; path = "Target Support Files/Pods-CurrencyTest/Pods-CurrencyTest.release.xcconfig"; sourceTree = "<group>"; };
+		707C9E519EF602E8C0E3424F /* Pods_CurrencyTest.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CurrencyTest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84F125C7360B146895D56EA8 /* Pods-CurrencyTest.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CurrencyTest.debug.xcconfig"; path = "Target Support Files/Pods-CurrencyTest/Pods-CurrencyTest.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				593F384FA79F5DDACF4236F1 /* Pods_CurrencyTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +63,8 @@
 			children = (
 				2C50AEDA270C81EC0053E273 /* CurrencyTest */,
 				2C50AED9270C81EC0053E273 /* Products */,
+				A4492B825BEF0BC6A61DBC7A /* Pods */,
+				77AA93CB4225A718A92D9081 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +81,38 @@
 			children = (
 				2C50AEDB270C81EC0053E273 /* AppDelegate.swift */,
 				2C50AEDD270C81EC0053E273 /* SceneDelegate.swift */,
-				2C50AEDF270C81EC0053E273 /* ViewController.swift */,
-				2C50AEE1270C81EC0053E273 /* Main.storyboard */,
+				2C50AEEF270C833C0053E273 /* FirstScreen.swift */,
+				2C50AEDF270C81EC0053E273 /* SecondScreen.swift */,
+				2CE3F98527317C0900F6D324 /* FavoritesScreen.swift */,
+				2CB26DD02719B5E000FBB8BC /* Cell.swift */,
+				2CE3F987273AA07C00F6D324 /* Cell2.swift */,
+				2CE3F989273DD6D700F6D324 /* dictionaries.swift */,
+				2CFFFE1E27A7127500EDDFE8 /* Ubuntu-Light.ttf */,
+				2CFFFE2027A7135E00EDDFE8 /* Ubuntu-Regular.ttf */,
+				2CFFFE2227A7163700EDDFE8 /* Syncopate-Bold.ttf */,
+				2CFFFE2427A717A500EDDFE8 /* Syncopate-Regular.ttf */,
+				2CFFFE2627A7181B00EDDFE8 /* Damion-Regular.ttf */,
 				2C50AEE4270C81F40053E273 /* Assets.xcassets */,
-				2C50AEE6270C81F40053E273 /* LaunchScreen.storyboard */,
 				2C50AEE9270C81F40053E273 /* Info.plist */,
 			);
 			path = CurrencyTest;
+			sourceTree = "<group>";
+		};
+		77AA93CB4225A718A92D9081 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				707C9E519EF602E8C0E3424F /* Pods_CurrencyTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A4492B825BEF0BC6A61DBC7A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				84F125C7360B146895D56EA8 /* Pods-CurrencyTest.debug.xcconfig */,
+				5516A42C16530C4FA1117937 /* Pods-CurrencyTest.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +122,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 2C50AEEC270C81F40053E273 /* Build configuration list for PBXNativeTarget "CurrencyTest" */;
 			buildPhases = (
+				C5499B8CC0C327EED64F3EB1 /* [CP] Check Pods Manifest.lock */,
 				2C50AED4270C81EC0053E273 /* Sources */,
 				2C50AED5270C81EC0053E273 /* Frameworks */,
 				2C50AED6270C81EC0053E273 /* Resources */,
+				D006E8ACF7F14A2423012BE7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -108,6 +158,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = 2C50AECF270C81EC0053E273;
 			productRefGroup = 2C50AED9270C81EC0053E273 /* Products */;
@@ -124,45 +175,76 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C50AEE8270C81F40053E273 /* LaunchScreen.storyboard in Resources */,
+				2CFFFE2127A7135E00EDDFE8 /* Ubuntu-Regular.ttf in Resources */,
+				2CFFFE1F27A7127700EDDFE8 /* Ubuntu-Light.ttf in Resources */,
+				2CFFFE2527A717A500EDDFE8 /* Syncopate-Regular.ttf in Resources */,
+				2CFFFE2327A7163800EDDFE8 /* Syncopate-Bold.ttf in Resources */,
 				2C50AEE5270C81F40053E273 /* Assets.xcassets in Resources */,
-				2C50AEE3270C81EC0053E273 /* Main.storyboard in Resources */,
+				2CFFFE2727A7181B00EDDFE8 /* Damion-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		C5499B8CC0C327EED64F3EB1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CurrencyTest-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D006E8ACF7F14A2423012BE7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CurrencyTest/Pods-CurrencyTest-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CurrencyTest/Pods-CurrencyTest-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CurrencyTest/Pods-CurrencyTest-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		2C50AED4270C81EC0053E273 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C50AEE0270C81EC0053E273 /* ViewController.swift in Sources */,
+				2C50AEF0270C833C0053E273 /* FirstScreen.swift in Sources */,
+				2CE3F98627317C0900F6D324 /* FavoritesScreen.swift in Sources */,
+				2CE3F988273AA07E00F6D324 /* Cell2.swift in Sources */,
+				2CE3F98A273DD6D700F6D324 /* dictionaries.swift in Sources */,
+				2C50AEE0270C81EC0053E273 /* SecondScreen.swift in Sources */,
+				2CB26DD12719B5E100FBB8BC /* Cell.swift in Sources */,
 				2C50AEDC270C81EC0053E273 /* AppDelegate.swift in Sources */,
 				2C50AEDE270C81EC0053E273 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		2C50AEE1270C81EC0053E273 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C50AEE2270C81EC0053E273 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		2C50AEE6270C81F40053E273 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2C50AEE7270C81F40053E273 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		2C50AEEA270C81F40053E273 /* Debug */ = {
@@ -283,10 +365,12 @@
 		};
 		2C50AEED270C81F40053E273 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 84F125C7360B146895D56EA8 /* Pods-CurrencyTest.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LB62AQUMSB;
 				INFOPLIST_FILE = CurrencyTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -302,10 +386,12 @@
 		};
 		2C50AEEE270C81F40053E273 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5516A42C16530C4FA1117937 /* Pods-CurrencyTest.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LB62AQUMSB;
 				INFOPLIST_FILE = CurrencyTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
